@@ -9,8 +9,18 @@
 
  <body>
     <div>
-	  First Repo
-	  push command is:   git push --set-upstream origon/master master
+
+	  after saving file (eg index.htm) in local repo, you add it to the repo:   git add "index.htm"
+	  then commit it:     git commit -m 'explanation string'
+	 
+	  push command is:   git push --set-upstream origon master 
+
+	  to get the name of the remote repository:   git remote -v
+	  // origon  https://github.com/xthdraft/firstrepo (fetch)
+      // origon  https://github.com/xthdraft/firstrepo (push)
+
+	  to get url of the remote repository named "origon" :    git remote get-url origon
+	  // https://github.com/xthdraft/firstrepo
 	</div>
  </body>
 </html>
