@@ -9,18 +9,31 @@
 
  <body>
     <div>
+	  For this repo, I first created a repo in github by uploading  index.htm and the 2 folders \css and \js
+	  this procedure is explained in:   https://help.github.com/articles/cloning-a-repository/
 
-	  after saving file (eg index.htm) in local repo, you add it to the repo:   git add "index.htm"
-	  then commit it:     git commit -m 'explanation string'
-	 
-	  push command is:   git push --set-upstream origon master 
+	  now we have a clone of the repository in github
+	  by default it gets the name of "origin"
+
+	  we can now do stuff from the command line
+
+	  first, cd into the local repo:     cd firstrepo
 
 	  to get the name of the remote repository:   git remote -v
-	  // origon  https://github.com/xthdraft/firstrepo (fetch)
-      // origon  https://github.com/xthdraft/firstrepo (push)
+	  // origin  https://github.com/xthdraft/firstrepo.git (fetch)
+      // origin  https://github.com/xthdraft/firstrepo.git (push)
 
-	  to get url of the remote repository named "origon" :    git remote get-url origon
+	  to get url of the remote repository named "origin" :    git remote get-url origin
 	  // https://github.com/xthdraft/firstrepo
+
+	  ***   PUSHING CHANGES TO THE REMOTE REPOSITORY
+
+	  after changing file (eg index.htm) in local repo, you add it to the repo:   git add "index.htm"
+	  then commit it:     git commit -m 'FIRST CHANGE'
+	 
+	  then push to github:   git push --set-upstream origin master 
+
+	  
 	</div>
  </body>
 </html>
